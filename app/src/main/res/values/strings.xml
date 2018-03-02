@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="input_name">Name</string>
+    <string name="welcome_text">Welcome to the Literature Quiz!</string>
+    <string name="question1">Q1: Which one of the following authors wrote \"The Ballad of Reading Gaol\"?</string>
+    <string name="wilde">Oscar Wilde</string>
+    <string name="dickens">Charles Dickens</string>
+    <string name="carroll">Lewis Carroll</string>
+    <string name="milton">John Milton</string>
+    <string name="goethe">Wolfgang von Goethe</string>
+    <string name="yeats">William Butler Yeats</string>
+    <string name="question2">Q2: Who wrote the following: \“O sun, to tell thee how I hate thy beams /
+That bring to my remembrance from what state I fell, how glorious once above thy sphere.\”?</string>
+    <string name="question3">Q3: Which of the following books were written by Neil Gaiman?</string>
+    <string name="neverwhere">Neverwhere</string>
+    <string name="graveyard_book">The Graveyard Book</string>
+    <string name="small_gods">Small Gods</string>
+    <string name="needful_things">Needful Things</string>
+    <string name="ocean">The Ocean at the End of the Lane</string>
+    <string name="question4">Q4: Which one of the Brontë sisters wrote \"Jane Eyre\"?</string>
+    <string name="charlotte">Charlotte Brontë</string>
+    <string name="emily">Emily Brontë</string>
+    <string name="elizabeth">Elizabeth Brontë</string>
+    <string name="question5">Q5: Which Sherlock Holmes story first appeared in print?</string>
+    <string name="study_in_scarlet">A Study in Scarlet</string>
+    <string name="sign_four">The Sign of the Four</string>
+    <string name="baskervilles">The Hound of the Baskervilles</string>
+    <string name="question6">Q6: Select all books written by Stephen King.</string>
+    <string name="salems_lot">Salem\'s Lot</string>
+    <string name="good_omens">Good Omens</string>
+    <string name="pet_sematary">Pet Sematary</string>
+    <string name="the_stand">The Stand</string>
+    <string name="night_watch">Night Watch</string>
+    <string name="submit">Submit</string>
+    <string name="your_score">Your score is:</string>
+    <string name="question7">Q7: Type the surname of the author who wrote \"Fahrenheit 451\".</string>
+</resources>
