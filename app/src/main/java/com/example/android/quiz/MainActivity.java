@@ -68,8 +68,8 @@ public class MainActivity extends AppCompatActivity {
 
         //question 7
         EditText editLastName = (EditText) findViewById(R.id.q7_edit_text);
-        String lastName = editLastName.getText().toString().toUpperCase();
-        if(lastName.equals("BRADBURY") || lastName.equals("BRADBURY ")){
+        String lastName = editLastName.getText().toString().trim();
+        if(lastName.equalsIgnoreCase("Bradbury")){
             score++;
         }
     }
@@ -80,7 +80,7 @@ public class MainActivity extends AppCompatActivity {
     public void showScore(View view) {
             calculateScore();
             EditText insertName = (EditText) findViewById(R.id.name_view);
-            String name = insertName.getText().toString();
+            String name = insertName.getText().toString().trim();
             //Show a message as a toast
             Toast.makeText(this, "Hey " + name + "! " + getString(R.string.your_score)+ " " + score + "/7.", Toast.LENGTH_SHORT).show();
             score = 0;
